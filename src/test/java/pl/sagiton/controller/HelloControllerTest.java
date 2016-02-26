@@ -22,9 +22,6 @@ public class HelloControllerTest {
     @Mock
     User user;
 
-    @Mock
-    Iamateapot iamateapot;
-
 
     private HelloController helloController = new HelloController();
 

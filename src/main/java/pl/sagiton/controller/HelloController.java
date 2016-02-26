@@ -38,8 +38,6 @@ public class HelloController{
        }else if(username.equals("Johny")) {
            throw new Iamateapot();
        }
-
-
            model.addAttribute("attribute", username);
            return "helloyou";
 
